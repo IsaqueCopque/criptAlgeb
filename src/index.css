@@ -1,0 +1,17 @@
+@font-face{
+  font-family: Decterm;
+  src: url("./assets/_decterm.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Decterm, Roboto, 'Lucida Console', sans-serif;
+  color: rgb(29,245,50);
+  background-color: rgb(0,0,0);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container *{
+    max-width: 100%;
+}
+
+.content
+{
+    font-size: 1.2rem;
+}
+.higher{
+    font-size: 1.4rem;
+}
+.sub{
+    text-decoration: underline;
+}
+
+.center{
+    text-align: center;
+}
+
+.ascii-table{
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.ascii-table td{
+    border: 1px solid var(--verde)
+}
+
+@media screen and (max-width: 400px) {
+    .ascii-table{
+        font-size: 1.1rem;
+    }
+}

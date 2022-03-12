@@ -1,0 +1,13 @@
+{
+  "short_name": "CriptAlgeb",
+  "name": "Criptalgeb Terminal",
+  "description":"Terminal de criptografia",
+  "start_url": ".",
+  "icons":[
+    {"src":"favicon.png"}
+  ],
+  "author":"Isaque Copque",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
